@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.Baner{
+    width: 100%;
+    height:590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.Baner img{
+    height: 100%;
+    width: 100%;
+}
+
+.De{
+    background-color: red;
+}
+.details h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.details h3{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details h4{
+    text-align: center;
+    font-size: 18px;
+}
+.Nav_left{
+    width: 73%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.image{
+    width: 130px;
+    height: 80px;
+    margin-left: 40%;
+}
+.Nav_right{
+    width: 27%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+   gap: 16px;
+    
+}
+.Nav_right select{
+    width: 120px;
+    height: 38px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+    display: flex;
+   
+}
+.Nav_right button{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+.container{
+    background-image: url('/images/netflix.jpg');
+    background-size: contain;
+}
+.OptionsDiv{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.OptionsDiv input{
+    height: 45px;
+    width: 420px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: white;
+}
+.OptionsDiv button{
+    width: 120px;
+    height: 48px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.Banner_2{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    border: 2px solid rgba(240, 230, 215, 0.972);
+    
+}
+
+.l_details_2 h1{
+    color: white;
+    margin-top: 200px;
+    font-size: 50px;
+    margin-left: 25%;
+}
+.l_details_2 p{
+    color: white;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+
+}
+.image_2{
+    width: 400px;
+    height: 350px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.Banner_3{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    border: 1px solid white;
+}
+.download{
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 30%;
+
+}
+.r_details_3 h1{
+    color: #ffffff;
+    font-size: 45px;
+    margin-top: 15%;
+   
+}
+.r_details_3 p{
+    color: white;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l_details_3{
+    width: 50%;
+    height: 100%;
+    
+}
+.r_details_3{
+    width: 50%;
+    height: 100%;
+}
+.offline{
+    width: 70%;
+    height: 40%;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+.Banner_4{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    border: 1px solid white;
+
+}
+.l_details_4{
+    width:50% ;
+    height: 100%;
+}
+.watching{
+    width: 400px;
+    height: 300px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.r_details_4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.watch{
+    width: 400px;
+    height: 300px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.watch h1{
+    color: white;
+    font-size: 45px;
+}
+.watch p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    
+
+.Banner_5{
+    width: 100%;
+    height: 500px;
+   background-color: black;
+    display: flex;
+    border: 1px solid white;
+
+}
+.l_details_5{
+    width: 50%;
+    height: 100%;
+    
+}
+.r_details_5{
+    width: 50%;
+    height: 100%;
+}
+   
+.kid{
+    width: 400px;
+    height: 300px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.kids_profile{
+    width: 450px;
+    height: 300px;
+    margin-top: 20%;
+    margin-left: 17%;
+}
+.kids_profile h1{
+    color:white;
+    font-size: 45px;
+}
+.kids_profile p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    border: 1px solid white;
+    
+}
+.caption p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caption{
+    width: 600px;
+    height: 15px;
+    margin-left: 10%;
+    
+}
+.email{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    margin-left: 10%;
+    gap: 7px;
+}
+.email input{
+    width: 700px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;   
+    color: white;
+}
+.email button{
+    width: 150px;
+    height: 50px;
+    margin-top:15px;
+    background-color: red;
+    color: white;font-size: 20px;
+    border: none;
+    border-radius: 5px; 
+}
+.calls{
+    color:gray;
+    width: 250px;
+    margin-left: 13%;
+}
+.Table{
+    width: 830px;
+    height: 150px;
+    margin-left: 13%;
+    margin-top: 50px;
+    display: flex;
+}
+.Colomn_1{
+    width: 207px;
+    height: 150px;
+    color: gray;
+}
+.Colomn_2{
+    width: 207px;
+    height: 150px;
+    color: gray;
+}
+.Colomn_3{
+    width: 207px;
+    height: 150px;
+    color: gray;
+}
+.Colomn_4{
+    color: gray;
+}
+.language{
+    width: 150px;
+    height: 30px;
+    margin-left: 13%;
+    margin-top: 4%;
+}
+.language select{
+    width: 70%;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.Bottom_Caption{
+    color: gray;
+    margin-left: 13%;
+    margin-top: 3%;
+}
